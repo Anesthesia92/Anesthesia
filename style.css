@@ -1,0 +1,164 @@
+@charset "UTF-8";
+footer, .flex-container {
+  background: #c8b6dc;
+}
+
+.flex-container {
+  border-radius: 1px;
+  margin: 10px auto;
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0);
+  font-size: 10px;
+}
+
+.flex-container1, .flex-container2, .flex-container4 {
+  display: flex;
+}
+
+.flex-container4 {
+  flex-direction: column;
+}
+
+.flex-container3, .flex-element {
+  margin: 5px;
+}
+
+nav .flex-element, nav .dotted {
+  display: inline-block;
+}
+
+.flex-element {
+  color: #181919;
+  padding: 16px;
+  border-radius: 3px;
+}
+
+.dotted, .qwerty, .text {
+  vertical-align: middle;
+}
+
+.dotted {
+  border-left: 2px dotted #000000;
+  padding: 7px;
+}
+
+.flex-element3 {
+  font-size: 20px;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+.qwerty {
+  font-size: 16px;
+}
+
+body main {
+  background-color: #fceeff;
+  font-family: Georgia, serif;
+}
+body main section {
+  padding: 20px;
+}
+
+.text, footer {
+  padding: 15px;
+  text-align: center;
+}
+
+.text, a {
+  color: blueviolet;
+}
+
+.text {
+  font-weight: bold;
+  font-size: 10px;
+  list-style-type: "►►";
+  text-align: center;
+}
+
+footer {
+  border-bottom: 15px solid #fceeff;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.lol {
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.5);
+  -webkit-text-fill-color: white;
+}
+
+body {
+  width: 1100px;
+  padding: 0 0 0 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.front {
+  width: 1100px;
+  background: #fceeff;
+}
+
+main .flex-element, main .flex-element2, main .flex-element4 {
+  font-weight: 100;
+  font-size: 190%;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+h2 {
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.flex-element4 {
+  border-bottom: 1px solid #edcdff;
+  padding-bottom: 20px;
+}
+
+nav {
+  background-color: deepskyblue;
+}
+
+main .flex-container3 {
+  padding: 10px;
+  margin: 30px;
+  line-height: normal;
+}
+
+header {
+  padding-left: 100px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  background: url(https://sun1-92.userapi.com/xlPYkz0wbGM_J_XiVsYXbPyCktIs1Sk1zdsVdw/RybQev4ifh8.jpg);
+  box-sizing: border-box;
+  height: 230px;
+  width: 1000px;
+}
+
+aside {
+  display: block;
+}
+
+button {
+  background-color: #d8c0c8;
+  padding: 12px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: underline;
+}
+
+.right {
+  border-right: 2px solid #edcdff;
+  padding-right: 5px;
+}
+
+.left {
+  padding-left: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
