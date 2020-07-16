@@ -19,7 +19,9 @@ footer, .flex-container
 .flex-container1, .flex-container2, .flex-container4
   display: flex
 
-
+.about
+  font-weight: $front
+  border-bottom: 1px solid #edcdff
 .flex-container4
   flex-direction: column
 
@@ -45,11 +47,6 @@ nav
 .dotted
   border-left: 2px dotted #000000
   padding: 7px
-
-.flex-element3
-  font-size: $size2
-  font-weight: $weight
-  list-style-type: none
 
 .qwerty
   font-size: $size
@@ -83,7 +80,7 @@ footer
   -webkit-text-fill-color: white
 
 body
-  width: 1100px
+  width: 1000px
   padding: 0 0 0 0
   margin-left: auto
   margin-right: auto
@@ -93,7 +90,7 @@ body
 
 main
 
-  .flex-element, .flex-element2, .flex-element4
+  .flex-element, .flex-element2
     font-weight: $front
     font-size: 190%
 
@@ -105,10 +102,13 @@ h2
   font-weight: $front
   font-size: 20px
 
-.flex-element4
-  border-bottom: 1px solid #edcdff
-  padding-bottom: 20px
+h3
+  font-weight: 600
+  font-size: 20px
 
+.flex-element4, .flex-element3
+  font-size: 16px
+  font-weight: $front
 nav
   background-color: $back
 
@@ -122,15 +122,18 @@ header
   padding-left: 100px
   padding-top: 20px
   padding-bottom: 30px
-  background: url(https://sun1-92.userapi.com/xlPYkz0wbGM_J_XiVsYXbPyCktIs1Sk1zdsVdw/RybQev4ifh8.jpg)
+  background: url(../images/RybQev4ifh8.jpg)
+  position: relative
   box-sizing: border-box
   height: 230px
   width: 1000px
-
+.img1
+  position: absolute
+  right: 457px
+  bottom: 3px
 aside
-  display: block
 
-.flex-container3
+  display: block
 
 
 button
