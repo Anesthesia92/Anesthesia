@@ -147,10 +147,12 @@ header {
   width: 1000px;
 }
 
-.img1 {
+.front_img {
   position: absolute;
   right: 457px;
   bottom: 3px;
+  height: 74px;
+  width: 73px;
 }
 
 aside {
