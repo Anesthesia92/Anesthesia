@@ -10,28 +10,28 @@ footer, .flex-container {
   font-size: 10px;
 }
 
-.flex-container1, .flex-container2, .flex-container4 {
+.flex-container_1, .flex-container_2, .flex-container_4 {
   display: flex;
 }
 
-.flex-container2 {
+.flex-container_2 {
   margin-top: 30px;
 }
 
-.about {
+.flex-element_4__about {
   font-weight: 100;
   border-bottom: 1px solid #edcdff;
 }
 
-.flex-container4 {
+.flex-container_4 {
   flex-direction: column;
 }
 
-.flex-container3, .flex-element {
+.flex-container_3, .flex-element {
   margin: 5px;
 }
 
-nav .flex-element, nav .dotted {
+nav .flex-element, nav .nav__dotted {
   display: inline-block;
 }
 
@@ -41,16 +41,16 @@ nav .flex-element, nav .dotted {
   border-radius: 3px;
 }
 
-.dotted, .qwerty, .text {
+.nav__dotted, .menu-item, .flex-element_3__menu-item {
   vertical-align: middle;
 }
 
-.dotted {
+.nav__dotted {
   border-left: 2px dotted #000000;
   padding: 7px;
 }
 
-.qwerty {
+.menu-item {
   font-size: 16px;
 }
 
@@ -62,16 +62,16 @@ body main section {
   padding: 20px;
 }
 
-.text, footer {
+.flex-element_3__menu-item, footer {
   padding: 15px;
   text-align: center;
 }
 
-.text, a {
+.flex-element_3__menu-item, a {
   color: blueviolet;
 }
 
-.text {
+.flex-element_3__menu-item {
   font-weight: bold;
   font-size: 10px;
   list-style-type: "►►";
@@ -84,7 +84,7 @@ footer {
   margin-right: 10px;
 }
 
-.lol {
+.flex-container_3__text-stroke {
   -webkit-text-stroke: 1px rgba(0, 0, 0, 0.5);
   -webkit-text-fill-color: white;
 }
@@ -101,7 +101,7 @@ body {
   background: #fceeff;
 }
 
-main .flex-element, main .flex-element2 {
+main .flex-element, main .flex-element_2 {
   font-weight: 100;
   font-size: 190%;
 }
@@ -121,7 +121,7 @@ h3 {
   font-size: 20px;
 }
 
-.flex-element4, .flex-element3 {
+.flex-element_4, .flex-element_3 {
   font-size: 16px;
   font-weight: 100;
 }
@@ -130,7 +130,7 @@ nav {
   background-color: deepskyblue;
 }
 
-main .flex-container3 {
+main .flex-container_3 {
   padding: 10px;
   margin: 30px;
   line-height: normal;
@@ -169,24 +169,24 @@ a {
   text-decoration: underline;
 }
 
-.right {
+.flex-container_2__right {
   border-right: 2px solid #edcdff;
   padding-right: 5px;
 }
 
-.left {
+.flex-container_2__left {
   padding-left: 10px;
 }
 
-.flex-element5 {
+.flex-element_5 {
   margin-top: 80px;
 }
 
-.flex-element3 {
+.flex-element_3 {
   width: 158px;
 }
 
-.flex-element2 {
+.flex-element_2 {
   margin-top: 0;
 }
 
