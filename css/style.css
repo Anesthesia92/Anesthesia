@@ -1,4 +1,11 @@
 @charset "UTF-8";
+.about {
+  color: red;
+}
+.about__title {
+  display: flex;
+}
+
 footer, .flex-container {
   background: #c8b6dc;
 }
