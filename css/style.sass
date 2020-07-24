@@ -8,55 +8,55 @@ $front: 100
 $display: inline-block
 $back: deepskyblue
 
-.about
-  color: red
-  &__title
-    display: flex
 
-
-footer, .flex-container
+footer,.navigation
   background: $color-flex
 
-.flex-container
+.navigation
   border-radius: 1px
   margin: 10px auto
   box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0)
   font-size: 10px
+  &__element
+   color: #181919
+   padding: 16px
+   border-radius: 3px
+  &__dotted
+   border-left: 2px dotted #000000
+   padding: 7px
 
-.flex-container_1, .flex-container_2, .flex-container_4
+.flex-container, .flex-container-IW, .flex-container-AIW
   display: flex
 
-.flex-container_2
+.flex-container-IW
   margin-top: 30px
+  &__Introductions
+    border-right: 2px solid #edcdff
+    padding-right: 5px
+  &__Welcome
+    padding-left: 10px
 
-.flex-element_4__about
+.About-title
   font-weight: $front
   border-bottom: 1px solid #edcdff
 
-.flex-container_4
+.flex-container-AIW
   flex-direction: column
 
 %message-shared
   margin: 5px
 
-.flex-container_3, .flex-element
+.Aside-menu, .navigation__element
   @extend %message-shared
 
 nav
-  .flex-element, .nav__dotted
+  .navigation__element, .navigation__dotted
     display: $display
 
-.flex-element
-  color: #181919
-  padding: 16px
-  border-radius: 3px
 
-.nav__dotted, .menu-item, .flex-element_3__menu-item
+.navigation__dotted, .menu-item, .Aside-menu__menu-item
   vertical-align: middle
 
-.nav__dotted
-  border-left: 2px dotted #000000
-  padding: 7px
 
 .menu-item
   font-size: $size
@@ -69,14 +69,14 @@ body
     section
       padding: 20px
 
-.flex-element_3__menu-item, footer
+.Aside-menu__menu-item, footer
   padding: 15px
   text-align: center
 
-.flex-element_3__menu-item, a
+.Aside-menu__menu-item, a
   color: $color
 
-.flex-element_3__menu-item
+.Aside-menu__menu-item
   font-weight: $weight
   font-size: 10px
   list-style-type: "►►"
@@ -87,23 +87,24 @@ footer
   margin-left: 10px
   margin-right: 10px
 
-.flex-container_3__text-stroke
+.Aside-menu__text-stroke
   -webkit-text-stroke: 1px rgba(0, 0, 0, 0.5)
   -webkit-text-fill-color: white
-
-body
-  width: 1000px
-  padding: 0 0 0 0
-  margin-left: auto
-  margin-right: auto
 
 .front
   width: 1000px
   background: $primary-color
+  margin: auto
+  &__element
+   position: absolute
+   right: 457px
+   bottom: 3px
+   height: 74px
+   width: 73px
 
 main
 
-  .flex-element, .flex-element_2
+  .navigation__element, .Welcome-title, .Introductions-title
     font-weight: $front
     font-size: 190%
 
@@ -119,7 +120,7 @@ h3
   font-weight: 600
   font-size: 20px
 
-.flex-element_4, .flex-element_3
+.Aside-menu__main
   font-size: 16px
   font-weight: $front
 
@@ -127,7 +128,7 @@ nav
   background-color: $back
 
 main
-  .flex-container_3
+  .Aside-menu
     padding: 10px
     margin: 30px
     line-height: normal
@@ -142,12 +143,6 @@ header
   height: 230px
   width: 1000px
 
-.front_img
-  position: absolute
-  right: 457px
-  bottom: 3px
-  height: 74px
-  width: 73px
 
 aside
   display: block
@@ -160,18 +155,11 @@ button
 a
   text-decoration: underline
 
-.flex-container_2__right
-  border-right: 2px solid #edcdff
-  padding-right: 5px
-
-.flex-container_2__left
-  padding-left: 10px
-
-.flex-element_5
+.Aside-menu__Resources
   margin-top: 80px
 
-.flex-element_3
+.Aside-menu__main
   width: 158px
 
-.flex-element_2
+.Welcome-title, .Introductions-title
   margin-top: 0
